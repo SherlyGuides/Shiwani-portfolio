@@ -626,7 +626,7 @@ if(navigator.onLine){const yb=$('#ytBox');yb.innerHTML='<iframe src="https://www
 const bk=by.bunker;$('#bunkerText').textContent=bk.blurb;$('#bunkerBtn').onclick=()=>view(bk);
 
 /* ---------- reveal: homes ---------- */
-const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.35});$$('.home').forEach(r=>io2.observe(r));
+const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.35});$$('.home').forEach(r=>io2.observe(r));$$('.reveal:not(.in)').forEach(r=>io.observe(r));
 /* ---------- F: fullscreen ---------- */
 const fsEl=document.documentElement;
 const toggleFS=()=>{if(document.fullscreenElement){document.exitFullscreen?.()}else{(fsEl.requestFullscreen||fsEl.webkitRequestFullscreen)?.call(fsEl)}};
