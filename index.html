@@ -631,7 +631,8 @@ if(canSW){
   navigator.serviceWorker.addEventListener('message',e=>{const m=e.data||{};
     if(m.type==='progress')setSave(`Saving… ${Math.round(m.done/m.total*100)}%`,`${m.done} of ${m.total} files`);
     if(m.type==='done'){setSave('Saved offline ✓','This link now opens with no internet in this browser.',true);try{localStorage.setItem('offlineSaved','1')}catch(e){}}
-    if(m.type==='status'&&m.complete){setSave('Saved offline ✓','This link now opens with no internet in this browser.',true)}});
+    if(m.type==='status'){if(m.complete)setSave('Saved offline ✓','This link now opens with no internet in this browser.',true);else if(m.saved)setSave('Save offline','',false)}});
+  try{if(localStorage.getItem('offlineSaved')==='1')setSave('Saved offline ✓','This link now opens with no internet in this browser.',true)}catch(e){}
   navigator.serviceWorker.ready.then(r=>r.active&&r.active.postMessage({type:'status'}));
   saveBtns.forEach(b=>b.addEventListener('click',async()=>{if(b.disabled)return;setSave('Saving… 0%','Keep this tab open until it finishes.');try{await Promise.race([navigator.storage?.persist?.(),new Promise(r=>setTimeout(r,1500))])}catch(e){}const r=await navigator.serviceWorker.ready;r.active.postMessage({type:'precache'})}));
 }else{saveBtns.forEach(b=>b.style.display='none')}
