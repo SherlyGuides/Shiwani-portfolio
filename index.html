@@ -404,6 +404,9 @@ body.inbp .xh,body.inbp .coord{display:block}
 .dlbtn{display:inline-flex;flex-direction:column;gap:3px;margin-top:26px;padding:14px 20px;border:1.5px solid var(--ink);border-radius:4px;text-decoration:none;font:700 14px Manrope;color:var(--ink)}.dlbtn small{font:500 11px Manrope;color:var(--muted)}.dlbtn:hover{background:var(--ink);color:var(--paper)}.dlbtn:hover small{color:#c9c0b2}
 nav.top .links .dl{color:var(--accent);background:none;border:0;padding:0;font:inherit;font-weight:600;cursor:pointer}nav.top .links .dl.done{color:var(--muted);cursor:default}
 .dlbtn{cursor:pointer;background:none;text-align:left}.dlbtn.done{border-color:var(--muted);color:var(--muted);cursor:default}.dlbtn.done:hover{background:none;color:var(--muted)}
+
+.fshint{position:absolute;right:24px;bottom:20px;font:500 10px Manrope;letter-spacing:.3em;text-transform:uppercase;color:#4a443d}
+:fullscreen body,:fullscreen{background:#000}
 </style></head>
 <body class="locked">
 
@@ -622,6 +625,12 @@ const bk=by.bunker;$('#bunkerText').textContent=bk.blurb;$('#bunkerBtn').onclick
 
 /* ---------- reveal: homes ---------- */
 const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.35});$$('.home').forEach(r=>io2.observe(r));
+/* ---------- F: fullscreen ---------- */
+const fsEl=document.documentElement;
+const toggleFS=()=>{if(document.fullscreenElement){document.exitFullscreen?.()}else{(fsEl.requestFullscreen||fsEl.webkitRequestFullscreen)?.call(fsEl)}};
+addEventListener('keydown',e=>{if((e.key==='f'||e.key==='F')&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName)){e.preventDefault();toggleFS()}});
+$('#tplay')?.insertAdjacentHTML('beforeend','<span class="fshint">F for fullscreen</span>');
+
 /* ---------- offline: service worker + save button ---------- */
 const canSW='serviceWorker' in navigator&&(location.protocol==='https:'||location.port==='5201');
 const saveBtns=[$('#saveBtn'),$('#saveNav')].filter(Boolean);
