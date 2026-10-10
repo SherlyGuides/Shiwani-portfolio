@@ -407,6 +407,9 @@ nav.top .links .dl{color:var(--accent);background:none;border:0;padding:0;font:i
 
 .fshint{position:absolute;right:24px;bottom:20px;font:500 10px Manrope;letter-spacing:.3em;text-transform:uppercase;color:#4a443d}
 :fullscreen body,:fullscreen{background:#000}
+
+.fsbtn{position:absolute;right:24px;bottom:20px;background:none;border:1px solid #4a443d;color:#a89f92;border-radius:999px;padding:7px 12px;font:500 10px Manrope;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}.fsbtn:hover{color:#efe8dc;border-color:#a89f92}
+nav.top .links a.dl{text-decoration:none}
 </style></head>
 <body class="locked">
 
@@ -418,7 +421,7 @@ nav.top .links .dl{color:var(--accent);background:none;border:0;padding:0;font:i
  <div class="bowlwrap"><span class="ring"></span><span class="ring"></span><span class="ring"></span><img class="bowlimg" src="assets/bowl.webp" alt="Singing bowl" draggable="false"></div>
  <span class="cue">strike</span></div></div></div>
 
-<nav class="top" id="nav"><div class="wrap"><b>Shiwani Kumari</b><div class="links"><a href="#me">Me</a><a href="#embassy">American Spaces</a><a href="#paints">Asian Paints</a><a href="#gallery">Exhibitions</a><a href="#homes">Homes</a><a href="#contact">Contact</a><button class="dl" id="saveNav">Save offline</button></div></div></nav>
+<nav class="top" id="nav"><div class="wrap"><b>Shiwani Kumari</b><div class="links"><a href="#me">Me</a><a href="#embassy">American Spaces</a><a href="#paints">Asian Paints</a><a href="#gallery">Exhibitions</a><a href="#homes">Homes</a><a href="#contact">Contact</a><button class="dl" id="saveNav">Save offline</button><a class="dl" href="https://github.com/SherlyGuides/Shiwani-portfolio/releases/latest/download/Shiwani-portfolio-offline.zip">Download</a><button class="dl" id="fsNav" title="Fullscreen (F)">⛶</button></div></div></nav>
 
 <!-- ===== 1 · HOOK ===== -->
 <header class="hero" id="hook">
@@ -629,7 +632,7 @@ const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.targ
 const fsEl=document.documentElement;
 const toggleFS=()=>{if(document.fullscreenElement){document.exitFullscreen?.()}else{(fsEl.requestFullscreen||fsEl.webkitRequestFullscreen)?.call(fsEl)}};
 addEventListener('keydown',e=>{if((e.key==='f'||e.key==='F')&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName)){e.preventDefault();toggleFS()}});
-$('#tplay')?.insertAdjacentHTML('beforeend','<span class="fshint">F for fullscreen</span>');
+$('#tplay')?.insertAdjacentHTML('beforeend','<button class="fsbtn" id="fsPlay" title="Fullscreen (F)">⛶ Fullscreen</button>');$('#fsPlay')?.addEventListener('click',e=>{e.stopPropagation();toggleFS()});$('#fsNav')?.addEventListener('click',toggleFS);
 
 /* ---------- offline: service worker + save button ---------- */
 const canSW='serviceWorker' in navigator&&(location.protocol==='https:'||location.port==='5201');
