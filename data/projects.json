@@ -68,7 +68,8 @@
    "blurb": "A dealer showroom planned end to end, from the outline survey and furniture circulation to joinery details for the product racks, colour lab and reception.",
    "featured": true,
    "hook": "It started with a blank 27-foot box and a tin of paint.",
-   "built": true
+   "built": true,
+   "chip": "#68171f"
   },
   {
    "id": "bunker",
@@ -83,7 +84,8 @@
    "featured": true,
    "hook": "A room for the survivors of a war.",
    "built": true,
-   "yt": "sZYSd_MRLno"
+   "yt": "sZYSd_MRLno",
+   "chip": "#48372f"
   },
   {
    "id": "bahrain",
@@ -97,7 +99,8 @@
    "blurb": "Massing and colour studies for a contemporary villa, with interior moods for the main living room.",
    "featured": true,
    "hook": "Three colours, one wall, and a desert sun that forgives nothing.",
-   "built": true
+   "built": true,
+   "chip": "#586782"
   },
   {
    "id": "catch",
@@ -114,7 +117,8 @@
    "credit": "Designed at Storm",
    "blurb": "A live-cooking stage, spice cart, recipe wall and modular racks for a brand activation.",
    "hook": "Can a spice have a stage? We gave it one.",
-   "built": true
+   "built": true,
+   "chip": "#aa363b"
   },
   {
    "id": "ifb",
@@ -131,7 +135,8 @@
    "credit": "Designed at Storm",
    "blurb": "A New Year experience zone built around a circular portal and a washing-zone vignette.",
    "hook": "Walk through a washing machine. Literally.",
-   "built": true
+   "built": true,
+   "chip": "#552423"
   },
   {
    "id": "janakpur",
@@ -143,7 +148,8 @@
    "credit": "Designed at Storm",
    "blurb": "A compact dealer showroom with tinting machine, product walls and a feature-finish backdrop.",
    "hook": "The smallest showroom on the trip. Every inch had a job.",
-   "built": true
+   "built": true,
+   "chip": "#8e1d1d"
   },
   {
    "id": "dealer-meet",
@@ -161,7 +167,8 @@
    "blurb": "A walk-through brand world: Bling moment rooms, texture galleries, demonstration zones and the Excelerate brand shop.",
    "featured": true,
    "hook": "A thousand dealers, one hall, and a mirror that said 'gold mode on'.",
-   "built": true
+   "built": true,
+   "chip": "#54585f"
   },
   {
    "id": "budanilkantha",
@@ -177,7 +184,8 @@
    "credit": "Designed at Storm",
    "blurb": "Dealer showroom concept.",
    "hook": "Up the hill where the sleeping Vishnu lies.",
-   "built": true
+   "built": true,
+   "chip": "#b99c5a"
   },
   {
    "id": "american-space-8",
@@ -194,7 +202,8 @@
    "credit": "Designed at Storm",
    "blurb": "Library and community space concept.",
    "hook": "A library that had to feel like a living room.",
-   "built": true
+   "built": true,
+   "chip": "#99aac0"
   },
   {
    "id": "pepsicola",
@@ -210,7 +219,8 @@
    "credit": "Designed at Storm",
    "blurb": "Dealer showroom concept.",
    "hook": "Paint is sold by colour. So the walls had to sell first.",
-   "built": true
+   "built": true,
+   "chip": "#5286a6"
   },
   {
    "id": "teku",
@@ -227,7 +237,8 @@
    "blurb": "Reception, book stacks, a robotics corner, a programming hall and a semicircular reading nook for Kathmandu's Innovation Hub. Years before I drew it, I was a reader here.",
    "featured": true,
    "hook": "Robots, books and a curved blue sofa. The Innovation Hub.",
-   "built": true
+   "built": true,
+   "chip": "#3c4a35"
   },
   {
    "id": "bhairahawa",
@@ -240,7 +251,8 @@
    "credit": "Designed at Storm",
    "blurb": "Maker's room, reading hall, floating shelves and a screen wall for a regional American Space.",
    "hook": "At the border town, a room for big ideas.",
-   "built": true
+   "built": true,
+   "chip": "#e1dad3"
   },
   {
    "id": "surkhet",
@@ -252,7 +264,8 @@
    "credit": "Designed at Storm",
    "blurb": "Cabins, registration, music room, computer lab and a red-white-blue reading area.",
    "hook": "47 slides, one question: where does a kid in Surkhet go to dream?",
-   "built": true
+   "built": true,
+   "chip": "#a7947f"
   },
   {
    "id": "dang",
@@ -264,7 +277,8 @@
    "credit": "Designed at Storm",
    "blurb": "Counselling zone, product display, machine area and panel display zones.",
    "hook": "In the western plains, a counter where colour is chosen.",
-   "built": true
+   "built": true,
+   "chip": "#a24443"
   },
   {
    "id": "biratnagar",
@@ -276,7 +290,8 @@
    "credit": "Designed at Storm",
    "blurb": "Library concept for eastern Nepal.",
    "hook": "Eastern Nepal's corner for American books and Nepali voices.",
-   "built": true
+   "built": true,
+   "chip": "#8d2539"
   },
   {
    "id": "exhibition-stall-2025",
@@ -293,7 +308,8 @@
    "credit": "Designed at Storm",
    "blurb": "A long, open-fronted stall built to be read from across the hall: a sculpted fascia with a circular cut-out, textured feature walls that carry the finishes themselves, a run of product panels along the back and a small seating pocket, so a visitor can take it in from the aisle and walk it in a minute.",
    "hook": "The stall that had to stop a crowd mid-walk.",
-   "built": true
+   "built": true,
+   "chip": "#ece8d9"
   },
   {
    "id": "art-gallery",
@@ -301,14 +317,15 @@
    "client": "Private client",
    "date": "2025-12",
    "place": "abroad",
-   "abroadLabel": "Freelance",
+   "abroadLabel": "Private client",
    "approx": true,
    "type": "Interior",
    "credit": "Freelance",
    "blurb": "A gallery and teaching studio built around Mithila painting, the folk art of the Terai that women have painted on the walls of their homes for generations. The figures, fish and lotus borders are hand painted onto the walls themselves, so the tradition is in the room, not only in the frames. Floor seating, a workshop hall and timber niches for finished work.",
    "featured": true,
    "hook": "Where the walls teach before the teacher does.",
-   "built": true
+   "built": true,
+   "chip": "#e3d4be"
   },
   {
    "id": "creators-mela",
@@ -325,7 +342,8 @@
    "credit": "Designed at Storm",
    "blurb": "Entrance portal, main and side stages, and sponsor stalls for a creators' festival.",
    "hook": "A neon tunnel for people who make things.",
-   "built": true
+   "built": true,
+   "chip": "#1c2c50"
   },
   {
    "id": "india-2bhk",
@@ -339,7 +357,8 @@
    "blurb": "A full apartment: living, kitchen, balcony swing, two bedrooms, baths and a lotus and Om puja wall.",
    "featured": true,
    "hook": "Two bedrooms, one balcony swing, and a lotus that glows at night.",
-   "built": true
+   "built": true,
+   "chip": "#3f2b18"
   },
   {
    "id": "cn2026",
@@ -357,7 +376,8 @@
    "blurb": "Four immersive trend worlds, Pastoral, IRL, Solar Punk and Daydream, plus the Coty colour booth.",
    "featured": true,
    "hook": "Four futures of colour. One of them grows a mountain indoors.",
-   "built": true
+   "built": true,
+   "chip": "#b5c285"
   },
   {
    "id": "chitwan-2",
@@ -369,7 +389,8 @@
    "credit": "Designed at Storm",
    "blurb": "A large-format showroom with full product walls, WPCC zone and a lounge.",
    "hook": "Rhino country gets a wall of 600 paint tins.",
-   "built": true
+   "built": true,
+   "chip": "#69734b"
   },
   {
    "id": "pokhara-american-space",
@@ -381,7 +402,8 @@
    "credit": "Designed at Storm",
    "blurb": "Library concept for Pokhara.",
    "hook": "Beside the lake, a library with a view of the Annapurnas.",
-   "built": true
+   "built": true,
+   "chip": "#e3d4c4"
   },
   {
    "id": "chitwan-1",
@@ -393,7 +415,8 @@
    "credit": "Designed at Storm",
    "blurb": "Panel walls for interior, exterior and wood finishes around a consultation counter.",
    "hook": "Interior. Exterior. Wood. Three walls, three decisions.",
-   "built": true
+   "built": true,
+   "chip": "#812d2e"
   },
   {
    "id": "coca-cola",
@@ -410,7 +433,8 @@
    "credit": "Designed at Storm",
    "blurb": "A spin-the-wheel promotional kiosk.",
    "hook": "Spin the wheel. Football fever in a kiosk.",
-   "built": true
+   "built": true,
+   "chip": "#7a1f25"
   },
   {
    "id": "new-br",
@@ -429,7 +453,8 @@
    "poster": "media/new-br/poster.jpg",
    "built": true,
    "featured": true,
-   "hook": "The render came true. Then we filmed it."
+   "hook": "The render came true. Then we filmed it.",
+   "chip": "#9b3b3d"
   },
   {
    "id": "bedroom",
@@ -437,12 +462,13 @@
    "client": "Private client",
    "date": "2026-08",
    "place": "abroad",
-   "abroadLabel": "Freelance",
+   "abroadLabel": "Private client",
    "type": "Residential",
    "credit": "Freelance",
    "blurb": "Herringbone oak, fluted headboard and full-height wardrobe joinery.",
    "hook": "Herringbone, oak and a quiet room to land in.",
-   "built": true
+   "built": true,
+   "chip": "#c4b39d"
   },
   {
    "id": "private-residence",
@@ -460,7 +486,8 @@
    "blurb": "Hall, kitchen, puja unit and a carved timber jali screen, plus a terracotta-and-teal bar lounge.",
    "featured": true,
    "hook": "A home where the puja room and the bar are neighbours.",
-   "built": true
+   "built": true,
+   "chip": "#90887f"
   },
   {
    "id": "birtamod",
@@ -473,7 +500,8 @@
    "credit": "Designed at Storm",
    "blurb": "Two showroom options for an eastern Nepal dealer.",
    "hook": "Two options for the far east. The dealer picked both.",
-   "built": true
+   "built": true,
+   "chip": "#536840"
   },
   {
    "id": "chunilaal",
@@ -490,7 +518,8 @@
    "credit": "Designed at Storm",
    "blurb": "A corner showroom with wraparound fascia, feature wall and finishes library.",
    "hook": "A corner shop that had to shout from both streets.",
-   "built": true
+   "built": true,
+   "chip": "#7f2629"
   },
   {
    "id": "exhibition-2026",
@@ -508,7 +537,8 @@
    "blurb": "An open stall that reads as a home rather than a trade counter. Three arched alcoves carry Royale, Bling and Ultima. A stone arch doorway opens into a lounge, and a grey portal with an oval mirror anchors the centre. Visitors walk through rooms, not past a counter. The layout changed every day of the build. It still opened on time.",
    "featured": true,
    "hook": "A stall disguised as a home, with arches, alcoves and a stone doorway.",
-   "built": true
+   "built": true,
+   "chip": "#40392e"
   },
   {
    "id": "putalisadak",
@@ -524,7 +554,8 @@
    "credit": "Designed at Storm",
    "blurb": "A narrow city showroom organised around a central consultation bar.",
    "hook": "Kathmandu's busiest street. A narrow room. A bar in the middle.",
-   "built": true
+   "built": true,
+   "chip": "#747f53"
   },
   {
    "id": "dharan",
@@ -536,7 +567,8 @@
    "credit": "Designed at Storm",
    "blurb": "Shutter-fronted showroom with finishes library, discussion table and product walls.",
    "hook": "Behind the shutters, a finishes library.",
-   "built": true
+   "built": true,
+   "chip": "#d4d4d0"
   },
   {
    "id": "pokhara",
@@ -548,7 +580,8 @@
    "credit": "Designed at Storm",
    "blurb": "Showroom with sculpted reception, finishes library and an illuminated product wall.",
    "hook": "Lake city, lit product wall.",
-   "built": true
+   "built": true,
+   "chip": "#d3d2ce"
   }
  ],
  "story": {
